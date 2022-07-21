@@ -1,0 +1,426 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-500 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/poppins-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/poppins-v20-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-700 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/poppins-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-800 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/poppins-v20-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "poppins";
+}
+.container{
+    width: 1612px;
+    margin: 0 auto;
+}
+.visually-hidden{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+/**/
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 95px;
+    align-items: center;
+}
+.header-href-list{
+    margin-right: 86px;
+    color: #404242;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-decoration: none;   
+}
+.header-href-home{
+    display: inline-block;
+    color: #58A9A5;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    position: relative;
+}
+.header-href-home::after{
+    content: '';
+    display: block;
+    width: 48px;
+    height: 6px;
+    background-color: #FEC62D;
+    border-radius: 21px;
+    position: absolute;
+    left: 15px;
+    
+}
+.header-href-list:last-child{
+    margin-right: 0;
+    
+}
+.header-logo{
+    margin-right: 14px;
+}
+.header-href{
+    color: #FFFFFF;
+    padding:  21px 87px 21px 88px;
+    background-color: #58A9A5;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+/*header bo'limi tugadi*/
+.intro{
+    margin-top: 126px;
+}
+.intro-div-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.intro-content{
+    width: 743px;
+    
+}
+.intro-text{
+    color: #1C2323;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+}
+.intro-text1{
+    color: #404242;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+}
+.intro-href{
+    color:#FFFFFF ;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    background-color: #58A9A5;
+    padding: 21px 83px 21px  90px;
+    border-radius: 20px 20px 20px 0px;
+}
+/*intro bo'limi tugadi*/
+.works{
+    margin-top: 136px;
+}
+.works-title-div{
+    text-align: center;
+    margin-bottom: 71px;
+}
+.works-title{
+    color: #1C2323;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    margin: 0;
+}
+.works-text{
+    color: #404242;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+}
+.works-div{
+    display: flex;
+    margin-bottom: 150px;
+}
+.works-div2{
+    padding: 70px 106px 89px 115px;
+    background-color: #CCF0E6;
+}
+.works-p{
+    color: #486958;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.works-href{
+    color: #486958;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.works-h3-wrapper{
+    width: 708px;
+    margin-left: 145px;
+}
+.works-h3{
+    color: #1C2323;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.works-p2{
+    color: #486958;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+/*how it works bo'limi tugadi*/
+.projects{
+    margin-bottom: 250px;
+}
+.projects-title-wrapper{
+    margin-bottom: 160px;
+    text-align: center;
+}
+.projects-title-wrapper::after{
+    content: '';
+    display: block;
+    width: 135px;
+    height: 0px;
+    left: 50%;
+    top: 51px;
+    position: absolute;
+    position: relative;
+    border-bottom: 5px solid #58A9A5;
+    transform: translate(-50%);
+}
+.projects-title-wrapper::before{
+    display: block;
+    content: '';
+    width: 135px;
+    height: 0;
+    left: 50%;
+    top: 370px;
+    position: absolute;
+    position: relative;
+    border-bottom:  5px solid #58A9A5;
+    transform: translate(-50%);
+}
+.projects-title{
+    color: #1C2323;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+}
+.projects-text{
+    color: #404242;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+}
+.projects-h3{
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #58A9A5;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+.projects-p{
+    color: #486958;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.projects-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.projects-item{
+    width: 453px;
+    flex-direction: column;
+    display: flex;
+}
+.projects-item:nth-child(2n){
+    flex-direction: column-reverse;
+}
+.projects-titles{
+    margin-top: 20px;
+}
+.projects-paragraph{
+    margin-bottom: 0;
+}
+/*projects bo'limi tugadi*/
+.testimonial{
+    margin-bottom: 240px;
+}
+.testimonial-title{
+    text-align: center;
+    color: #1C2323;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+}
+.testimonial-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-item{
+    margin-right: 90px;
+}
+.testimonial-maindiv-wrapper{
+    display: flex;
+    margin-top: 62px;
+}
+.testimonial-maintexts-wrapper{
+    background-color: #CCF0E6;
+    padding-top: 50px;
+    padding-left: 135px;
+    padding-right: 107px;
+    padding-bottom: 119px;
+    width: 1000px;
+}
+.testimonial-times-wrapper{
+    display: flex;
+    margin-bottom: 123px;
+    color: #58A9A5;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 105px;
+}
+.testimonial-times{
+    margin: 0;
+    font-weight:600px;
+    font-size:30px;
+    Line-height:45px;
+    margin-right: 117px;
+}
+.testimonial-quote{
+    color: #486958;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 0;
+}
+.testimonial-numbers{
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    margin: 0;
+}
+.testimonial-quote-span{
+    color: #58A9A5;
+    display: block;
+    margin-top: 50px;
+}
+/*testimonial bo'limi tugadi*/
+.contact{
+    margin-bottom: 334px;
+}
+.contact-title{
+    color: #1C2323;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    margin: 0;
+}
+.contact-text{
+    color: #486958;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 0;
+}
+.contact-title-wrapper{
+    position: relative;
+    margin-right: 104px;
+    
+}
+.contact-title-wrapper::after{
+    display: block;
+    content: '';
+    width: 135px;
+    border: 2px solid #58A9A5;
+    background-color: #58A9A5;
+    position: absolute;
+    top: 50%;
+}
+.contact-title-wrapper::before{
+    display: block;
+    content: '';
+    width: 135px;
+    border: 2px solid #58A9A5;
+    background-color: #58A9A5;
+    position: absolute;
+    top: 55%;
+}
+.contact-form{
+    padding: 57px 54px 56px 54px;
+    border: 1px solid #486958;
+    width: 1109px;
+}
+.contact-maindiv-wrapper{
+    display: flex;
+}
+.contact-input{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 25px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.conntact-href{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 21px 73px;
+    background-color: #58A9A5;
+    border-radius: 20px 20px 20px 0px;
+    position: absolute;
+    position: relative;
+    left: calc(100% - 210px);
+}
+.contact-second-input{
+    border: none;
+}
