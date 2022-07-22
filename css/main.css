@@ -70,6 +70,18 @@ body{
     padding-top: 95px;
     align-items: center;
 }
+.header-list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-list:last-child{
+    margin-right: 0;
+}
+.header-item{
+    margin-right: 86px;
+}
 .header-href-list{
     margin-right: 86px;
     color: #404242;
@@ -182,6 +194,54 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+}
+.works-play{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: #fff; 
+    box-sizing: content-box;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    left: 0;
+    bottom: 54px;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+.works-play::before{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    transition: 0.2s ease all;
+    content: '';
+}
+
+.works-play::after{
+    width: 27px;
+    height: 41px;
+    display: block;
+    margin: 0 auto;
+    background-image: url("../img/triangle.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-25%, -50%);
+    z-index: 1;
+    content: '';
+}
+
+.works-play:hover::before{
+    background-color: rgba(255, 255, 255, 0.35);
 }
 .works-href{
     color: #486958;
